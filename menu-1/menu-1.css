@@ -1,0 +1,44 @@
+.container {
+  min-width: 500px;
+}
+
+.menu-1 {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  min-width: 320px;
+  height: 60px;
+}
+
+.hamburger {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  justify-content: space-around;
+  margin-left: 15px;
+  max-width: 30px;
+  width: 30px;
+}
+
+.hamburger > .div {
+  border: 2px solid black;
+  width: 100%;
+}
+
+.logo {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  letter-spacing: -2px;
+  padding: 0px 0px;
+  text-transform: uppercase;
+}
+
+.icon {
+  margin-right: 15px;
+}
+
+.fa-star-exclamation {
+  font-size: 26px;
+}
