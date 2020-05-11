@@ -14,22 +14,49 @@
   <title>CSS Patterns</title>
 </head>
 <body>
-  <div class="container">
-    <div class="menu-1">
-      <div class="hamburger">
-        <div class="div"></div><!-- End .div -->
-        <div class="div"></div><!-- End .div -->
-        <div class="div"></div><!-- End .div -->
-      </div><!-- End .hamburger -->
-      <div class="logo">
-        <h1 class="logo">ACME</h1>
-      </div><!-- End .logo -->
-      <div class="icon">
-        <i class="far fa-star-exclamation"></i>
-      </div><!-- End .icon -->
-    </div><!-- End .menu-1 -->
+  <div class="left-col">
+    <div class="circle">
+      <i class="fad fa-sitemap"></i>
+    </div><!-- End .circle -->
 
-  </div><!-- End .body -->
-  <scrip src="index.js"></scrip>
+    <nav class="nav">
+      <ul class="nav-items">
+        <li class="nav-item">Menus</li>
+        <li class="nav-item">Footers</li>
+        <li class="nav-item">Covers</li>
+        <li class="nav-item">Grids</li>
+        <li class="nav-item">Texts</li>
+        <li class="nav-item">Galleries</li>
+        <li class="nav-item">Forms</li>
+        <li class="nav-item">Pricing Cards</li>
+        <li class="nav-item">Pricing Cards</li>
+        <li class="nav-item">Testimonials</li>
+      </ul>
+    </nav><!-- End .nav -->
+    <footer class="footer" >
+      <p>CSS Patterns <span class="copy-right">&copy;</span><span id="footer"></span></p>
+      <p>Made in San Francisco, 🇺🇸 and Berlin, 🇩🇪</p>
+    </footer><!-- End .footer -->
+  </div><!-- End .left-col -->
+
+  <section class="main">
+    <div class="container">
+      <h1 class="section-display_text">CSS Patterns <i class="fad fa-brackets-curly"></i></h1>
+      <h2 class="section-subheading">create basic UI components fast. Examples and source code included.</h2>
+      <div class="button-set">
+        <a href="https://github.com/tedico/CSS_Patterns" class="git"><i class="fab fa-github"></i>Source on GitHub</a><!-- End .git -->
+        <a href="" class="twitter"><i class="fab fa-twitter"></i>Tweet this</a><!-- End .twitter -->
+      </div><!-- End .button-set -->
+
+      <div class="gallery">
+        <a href="" class="item"></a><!-- End .item -->
+        <a href="" class="item"></a><!-- End .item -->
+        <a href="" class="item"></a><!-- End .item -->
+        <a href="" class="item"></a><!-- End .item -->
+        <a href="" class="item"></a><!-- End .item -->
+      </div><!-- End .gallery -->
+    </div><!-- End .container -->
+  </section><!-- End .main -->
+  <script src="index.js"></script>
 </body>
 </html>

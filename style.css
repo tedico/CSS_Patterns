@@ -6,56 +6,147 @@
 }
 
 body {
-  align-items: center;
-  background-color: #2d3436; /* dracula orchid #2d3436 https://flatuicolors.com/palette/us */
+  /* align-items: center; */
+ /* dracula orchid #2d3436 https://flatuicolors.com/palette/us */
+  color: #2d3436;
   display: flex;
   font-family: 'Roboto Mono', monospace;
   /* how do I set the font-size on the body? */
-  justify-content: center;
+  /* justify-content: center; */
   min-height: 100vh;
 }
 
-.container {
-  min-width: 500px;
+.left-col {
+  background-color: #dfe6e9;
+
+  min-height: 100vh;
+  padding: 1em;
+  width: 15%;
 }
 
-.menu-1 {
+.circle {
   align-items: center;
+  border: 5px solid #74b9ff;
+  border-radius: 100px;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin: 2.5em auto 0 auto;
+  width: 100px;
+}
+
+.fa-sitemap {
+  color: #0984e3;
+  font-size: 3em;
+}
+
+.nav  {
+  border: 1px solid hotpink;
+  margin-top: 3em;
+}
+
+li {
+  border-bottom: 1px solid #2d3436;
+  padding: 0 0 1em 0;
+  list-style-type: none;
+}
+
+.main {
   background-color: white;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 100vh;
+}
+
+.section-display_text {
+  font-size: 3rem;
+  padding: 1em 0 .25em 0;
+  text-align: center;
+}
+
+.fa-brackets-curly {
+  color: #0984e3;
+}
+
+.section-subheading {
+  margin-bottom: 1em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.button-set {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.git {
+  background-color: #28B376;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 10px;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-github {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #0984e3;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-twitter {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.gallery {
+  border: 1px solid #0984e3;
   display: flex;
   justify-content: space-between;
-  min-width: 320px;
-  height: 60px;
+  margin-top: 5em;
+  padding: 1px;
 }
 
-.hamburger {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 30px;
-  justify-content: space-around;
-  margin-left: 15px;
-  max-width: 30px;
-  width: 30px;
+.item {
+  border: 1px solid magenta;
+  height: 200px;
+  width: 200px;
 }
 
-.hamburger > .div {
-  border: 2px solid black;
-  width: 100%;
+
+.footer {
+  
+  font-size: .75em;
+  font-weight: 300;
+  padding: 1em 0;
+  text-align: center;
 }
 
-.logo {
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
-  letter-spacing: -2px;
-  padding: 0px 0px;
-  text-transform: uppercase;
+.footer > p {
+  margin-bottom: 5px;
 }
 
-.icon {
-  margin-right: 15px;
+.copy-right {
+  font-size: 1.25em;
 }
 
-.fa-star-exclamation {
-  font-size: 26px;
-}
+
