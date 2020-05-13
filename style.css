@@ -85,7 +85,7 @@ li {
   margin-top: 3em;
 }
 
-.git {
+.git-btn {
   background-color: #28B376;
   border-radius: 3px;
   color: white;
@@ -97,12 +97,29 @@ li {
   text-decoration: none;
 }
 
+.git-btn:link,
+.git-btn:visited {
+  color: hotpink;
+}
+
+/* a:link, a:visited { /* a and a:link are equivalent (a just just a plain old selector)
+	color: badAssColor;
+}
+
+a:focus, a:hover {
+	color: uhhmazingColor;
+}
+
+a:active {
+	color: jawDroppingColor;
+} */
+
 .fa-github {
   font-size: 1.5rem;
   margin-right: 10px;
 }
 
-.twitter {
+.twitter-btn {
   background-color: #0984e3;
   border-radius: 3px;
   color: white;
@@ -112,6 +129,26 @@ li {
   text-align: center;
   text-decoration: none;
 }
+
+.twitter-btn:link,
+.twitter-btn:visited {
+  color: hotpink;
+}
+
+/* don't forget to follow this order
+
+a:link,
+a:visited {
+
+}
+
+a:focus, {
+a:hover
+}
+
+a:active {
+
+}*/
 
 .fa-twitter {
   font-size: 1.5rem;
@@ -134,14 +171,13 @@ li {
 
 
 .footer {
-  
   font-size: .75em;
   font-weight: 300;
   padding: 1em 0;
   text-align: center;
 }
 
-.footer > p {
+.footer > p { /*combinators https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors */
   margin-bottom: 5px;
 }
 
