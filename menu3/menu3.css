@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background: #2d3436;
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.header {
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid black;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  width: 320px;
+}
+
+.header-left {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  width: 37%;
+}
+
+.div-box {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  height: 32px;
+  justify-content: space-evenly;
+  margin-right: 5px;
+  width: 32px;
+}
+
+.hamburger {
+  border: 2px solid black;
+  height: 2px;
+}
+
+.logo {
+  font-size: 30px;
+  letter-spacing: -2px;
+}
+
+i.far.fa-star-exclamation {
+  color: #0065F2;
+  font-size: 25px;
+  font-weight: 300;
+  padding: 10px;
+}
