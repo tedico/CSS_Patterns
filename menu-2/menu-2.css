@@ -5,11 +5,9 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-.container {
-  width: 320px;
-}
 
-.menu-1 {
+
+.menu-2 {
   align-items: center;
   background-color: white;
   display: flex;
@@ -47,5 +45,6 @@ body {
 }
 
 .fa-star-exclamation {
+  color: #0065F2;
   font-size: 26px;
 }

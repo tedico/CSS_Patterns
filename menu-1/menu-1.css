@@ -5,9 +5,7 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-.container {
-  width: 320px;
-}
+
 
 .menu-1 {
   align-items: center;
